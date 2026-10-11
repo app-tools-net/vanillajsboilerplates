@@ -1,8 +1,8 @@
 # Vanilla JS Boilerplates
 
-The ultimate collection of zero-dependency, ultra-fast starter kits built with raw **HTML5, CSS3, and Vanilla JavaScript**. No `npm install`, no heavy framework configurations, and no build steps. Just clean, optimized code ready to deploy instantly.
+The ultimate collection of zero-dependency, ultra-fast starter kits built with raw HTML5, CSS3, and Vanilla JavaScript. No npm install, no heavy framework configurations, and no complex build steps. Just clean, optimized code ready to deploy instantly.
 
-Live Storefront: **https://[your-github-username].github.io/vanilla-js-boilerplates/**
+Live Storefront: https://[your-github-username].github.io/vanilla-js-boilerplates/
 
 ---
 
@@ -10,20 +10,20 @@ Live Storefront: **https://[your-github-username].github.io/vanilla-js-boilerpla
 
 We offer three distinct, production-ready boilerplates tailored to help indie hackers launch web projects in minutes using the web's native stack.
 
-### 1. The SaaS Launcher (\$29)
-*Designed for launching modern software products quickly.*
-* **Features:** Premium conversion-optimized SaaS landing page, fully responsive application dashboard UI layout, and native JavaScript checkout routes.
-* **Integrations:** Pre-configured Stripe Checkout redirects.
+### 1. The SaaS Launcher (\$9)
+Designed for launching modern software products quickly on a micro-budget.
+* Features: Premium conversion-optimized SaaS landing page, fully responsive application dashboard UI layout, and native JavaScript checkout routes.
+* Integrations: Pre-configured Stripe Checkout redirects.
 
-### 2. Portfolio & Blog Hub (\$19)
-*Built for creators, developers, and writers who value speed.*
-* **Features:** Clean typographic grid, semantic SEO meta tags, automatic layout shifting, and a light/dark mode utility.
-* **Performance:** 100/100 Lighthouse score out of the box.
+### 2. Portfolio & Blog Hub (\$5)
+Built for creators, developers, and writers who value maximum performance.
+* Features: Clean typographic grid, semantic SEO meta tags, automatic layout shifting, and a light/dark mode utility.
+* Performance: 100/100 Lighthouse score out of the box.
 
-### 3. The Full-Stack Vanilla (\$49)
-*The ultimate dynamic template with a completely serverless architecture.*
-* **Features:** Everything included in the SaaS Launcher, plus complete state management templates.
-* **Integrations:** Connects directly to **Clerk** (User Authentication) and **Supabase** (Database CRUD operations) entirely via CDN scripts.
+### 3. The Full-Stack Vanilla (\$14)
+The ultimate dynamic template with a completely serverless architecture.
+* Features: Everything included in the SaaS Launcher, plus complete state management templates.
+* Integrations: Connects directly to Clerk (User Authentication) and Supabase (Database CRUD operations) entirely via CDN scripts.
 
 ---
 
@@ -31,9 +31,9 @@ We offer three distinct, production-ready boilerplates tailored to help indie ha
 
 Because this stack uses raw web technology, setting up your environment takes exactly three seconds:
 
-1. **Download & Extract:** Unzip the project folder onto your computer.
-2. **Open Code:** Open the folder in your browser or code editor (like [vscode.dev](https://vscode.dev)).
-3. **Launch Live:** Double-click `index.html` to run it instantly in any modern browser.
+1. Download & Extract: Unzip the project folder onto your computer.
+2. Open Code: Open the folder in your browser or code editor (like vscode.dev).
+3. Launch Live: Double-click index.html to run it instantly in any modern browser.
 
 ---
 
@@ -57,22 +57,21 @@ vanilla-boilerplate/
 
 ## Free Production Deployment
 
-Ready to take your product live globally? Since these files are 100% static asset architectures, you can host them for **\$0/month** using native platform tools:
+Ready to take your product live globally? Since these files are 100% static asset architectures, you can host them for $0/month using native platform tools:
 
 ### Deploying to GitHub Pages
 1. Push your extracted code to a public or private GitHub repository.
-2. Navigate to **Settings** -> **Pages** in your GitHub dashboard.
-3. Set your build source to the `main` branch and hit **Save**. Your site is now live!
+2. Navigate to Settings -> Pages in your GitHub dashboard.
+3. Set your build source to the main branch and hit Save. Your site is now live!
 
 ---
 
 ## Purchase & License
 
-These boilerplates are sold individually or as a bundle via our unified storefront link. 
-Each purchase grants a **Personal/Commercial License**—meaning you can build and monetize as many projects as you want with the code.
+These boilerplates are sold individually via our unified storefront link. Each purchase grants a Personal/Commercial License—meaning you can build and monetize as many projects as you want with the code.
 
-**[Browse and Buy the Boilerplates Here](https://[your-github-username].github.io/vanilla-js-boilerplates/)**
+[Browse and Buy the Boilerplates Here](https://[your-github-username].github.io/vanilla-js-boilerplates/)
 
 ---
 
-*Built by Indie Hackers, for Indie Hackers. Clean code. Zero bloat. Pure speed.*
+Built by Indie Hackers, for Indie Hackers. Clean code. Zero bloat. Pure speed.
