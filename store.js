@@ -22,10 +22,8 @@ const StoreFrontSystem = {
     },
 
     init() {
-        document.addEventListener('DOMContentLoaded', () => {
-            this.bindPurchaseActions();
-            this.bindDemoActions();
-        });
+        this.bindPurchaseActions();
+        this.bindDemoActions();
     },
 
     bindPurchaseActions() {
@@ -92,4 +90,5 @@ const StoreFrontSystem = {
     }
 };
 
+// Initialize immediately when the module loads
 StoreFrontSystem.init();
