@@ -70,7 +70,7 @@ Ready to take your product live globally? Since these files are 100% static asse
 
 These boilerplates are sold individually via our unified storefront link. Each purchase grants a Personal/Commercial License—meaning you can build and monetize as many projects as you want with the code.
 
-[Browse and Buy the Boilerplates Here](https://[your-github-username].github.io/vanilla-js-boilerplates/)
+[Browse and Buy the Boilerplates Here]https://app-tools-net.github.io/vanillajsboilerplates/
 
 ---
 
