@@ -98,6 +98,11 @@
         .price { font-size: 32px; font-weight: bold; color: #ffffff; margin-bottom: 16px; }
         .price span { font-size: 14px; font-weight: normal; color: #94a3b8; }
         .old-price { font-size: 16px; text-decoration: line-through; color: #64748b; margin-right: 6px; font-weight: normal; }
+        .card-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
         button {
             width: 100%;
             background-color: #334155;
@@ -113,6 +118,15 @@
         button:hover { background-color: #475569; border-color: #64748b; }
         .btn-accent { background-color: #4f46e5; border: none; }
         .btn-accent:hover { background-color: #4338ca; }
+        .demo-button {
+            background-color: transparent;
+            border: 1px solid #818cf8;
+            color: #c7d2fe;
+        }
+        .demo-button:hover {
+            background-color: rgba(129, 140, 248, 0.08);
+            border-color: #a5b4fc;
+        }
         footer {
             border-top: 1px solid #334155;
             max-width: 1200px;
@@ -151,7 +165,10 @@
                 </div>
                 <div>
                     <div class="price">$19 <span>one-time</span></div>
-                    <button data-boilerplate="saasLauncher">Buy SaaS Launcher</button>
+                    <div class="card-actions">
+                        <button data-boilerplate="saasLauncher">Buy SaaS Launcher</button>
+                        <button type="button" class="demo-button" data-demo="saasLauncher">View Demo</button>
+                    </div>
                 </div>
             </div>
 
@@ -169,7 +186,10 @@
                 </div>
                 <div>
                     <div class="price">$15 <span>one-time</span></div>
-                    <button data-boilerplate="portfolioHub">Buy Portfolio Hub</button>
+                    <div class="card-actions">
+                        <button data-boilerplate="portfolioHub">Buy Portfolio Hub</button>
+                        <button type="button" class="demo-button" data-demo="portfolioHub">View Demo</button>
+                    </div>
                 </div>
             </div>
 
@@ -187,7 +207,10 @@
                 </div>
                 <div>
                     <div class="price">$29 <span>one-time</span></div>
-                    <button data-boilerplate="fullStack">Buy Full-Stack Suite</button>
+                    <div class="card-actions">
+                        <button data-boilerplate="fullStack">Buy Full-Stack Suite</button>
+                        <button type="button" class="demo-button" data-demo="fullStack">View Demo</button>
+                    </div>
                 </div>
             </div>
 
@@ -206,7 +229,10 @@
                 </div>
                 <div>
                     <div class="price"><span class="old-price">$63</span>$39 <span>one-time</span></div>
-                    <button data-boilerplate="completeBundle" class="btn-accent">Buy All Boilerplates</button>
+                    <div class="card-actions">
+                        <button data-boilerplate="completeBundle" class="btn-accent">Buy All Boilerplates</button>
+                        <button type="button" class="demo-button" data-demo="completeBundle">View Store</button>
+                    </div>
                 </div>
             </div>
 
@@ -218,6 +244,6 @@
         &copy; Vanilla JS Boilerplates. Powered entirely by GitHub Pages. All rights reserved.
     </footer>
 
-    <script type="module" src="./js/store.js"></script>
+    <script type="module" src="./store.js"></script>
 </body>
 </html>
