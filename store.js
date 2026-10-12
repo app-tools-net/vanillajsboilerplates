@@ -13,9 +13,18 @@ const StoreFrontSystem = {
         completeBundle: "https://lemonsqueezy.com"
     },
 
+    // Demo URLs for live boilerplate previews
+    demoUrls: {
+        saasLauncher: "https://app-tools-net.github.io/demo-saas-launcher/",
+        portfolioHub: "https://app-tools-net.github.io/demo-portfolio-blog/",
+        fullStack: "https://app-tools-net.github.io/demo-fullstack-auth-key/",
+        completeBundle: "https://app-tools-net.github.io/vanillajsboilerplates/"
+    },
+
     init() {
         document.addEventListener('DOMContentLoaded', () => {
             this.bindPurchaseActions();
+            this.bindDemoActions();
         });
     },
 
@@ -27,6 +36,18 @@ const StoreFrontSystem = {
                 e.preventDefault();
                 const selectedKey = button.getAttribute('data-boilerplate');
                 this.routeToPaymentGateway(selectedKey, button);
+            });
+        });
+    },
+
+    bindDemoActions() {
+        const demoButtons = document.querySelectorAll('[data-demo]');
+        
+        demoButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                const selectedKey = button.getAttribute('data-demo');
+                this.routeToDemoSite(selectedKey, button);
             });
         });
     },
@@ -44,6 +65,29 @@ const StoreFrontSystem = {
             window.location.href = targetPaymentUrl;
         } else {
             console.error(`Checkout asset routing key "${boilerplateKey}" was not found.`);
+        }
+    },
+
+    routeToDemoSite(boilerplateKey, buttonElement) {
+        const targetDemoUrl = this.demoUrls[boilerplateKey];
+        
+        if (targetDemoUrl) {
+            // Apply instant user interaction feedback indicators
+            buttonElement.innerText = "Opening Demo...";
+            buttonElement.disabled = true;
+            buttonElement.style.opacity = "0.6";
+            
+            // Open the demo in a new tab
+            window.open(targetDemoUrl, '_blank');
+            
+            // Reset button state after a brief delay
+            setTimeout(() => {
+                buttonElement.innerText = "View Demo";
+                buttonElement.disabled = false;
+                buttonElement.style.opacity = "1";
+            }, 500);
+        } else {
+            console.error(`Demo routing key "${boilerplateKey}" was not found.`);
         }
     }
 };
