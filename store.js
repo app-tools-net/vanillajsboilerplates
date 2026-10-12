@@ -18,7 +18,7 @@ const StoreFrontSystem = {
         saasLauncher: "https://app-tools-net.github.io/demo-saas-launcher/",
         portfolioHub: "https://app-tools-net.github.io/demo-portfolio-blog/",
         fullStack: "https://app-tools-net.github.io/demo-fullstack-auth-key/",
-        completeBundle: "https://github.com/app-tools-net/vanillajsboilerplates/tree/main"
+        completeBundle: "https://app-tools-net.github.io/vanillajsboilerplates/"
     },
 
     init() {
